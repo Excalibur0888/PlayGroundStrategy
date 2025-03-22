@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Rules - PlayGroundStrategy</title>
+    <meta name="description" content="Learn the rules of fantasy football on PlayGroundStrategy. Understand scoring, drafting, trading, and everything you need to dominate your league.">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="index.html" class="logo">
+                    <span class="logo__text">PlayGround<span class="logo__highlight">Strategy</span></span>
+                </a>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li><a href="index.html" class="nav__link">Home</a></li>
+                        <li><a href="about.html" class="nav__link">About</a></li>
+                        <li><a href="rules.html" class="nav__link active">Rules</a></li>
+                        <li><a href="contact.html" class="nav__link">Contact</a></li>
+                    </ul>
+                </nav>
+                
+                <button class="menu-toggle">
+                    <span class="menu-toggle__bar"></span>
+                    <span class="menu-toggle__bar"></span>
+                    <span class="menu-toggle__bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+<main>
+    <!-- Page Banner -->
+    <section class="page-banner">
+        <div class="container">
+            <div class="page-banner__content">
+                <h1 class="page-banner__title">Game <span class="highlight">Rules</span></h1>
+                <p class="page-banner__subtitle">Everything you need to know about playing fantasy football on PlayGroundStrategy</p>
+            </div>
+        </div>
+        <div class="page-banner__background">
+            <div class="page-banner__shape page-banner__shape--1"></div>
+            <div class="page-banner__shape page-banner__shape--2"></div>
+        </div>
+    </section>
+
+    <!-- Rules Navigation -->
+    <section class="rules-nav">
+        <div class="container">
+            <div class="rules-nav__inner">
+                <div class="rules-nav__item">
+                    <a href="#basics" class="rules-nav__link">Basics</a>
+                </div>
+                <div class="rules-nav__item">
+                    <a href="#scoring" class="rules-nav__link">Scoring</a>
+                </div>
+                <div class="rules-nav__item">
+                    <a href="#draft" class="rules-nav__link">Draft Rules</a>
+                </div>
+                <div class="rules-nav__item">
+                    <a href="#roster" class="rules-nav__link">Roster Management</a>
+                </div>
+                <div class="rules-nav__item">
+                    <a href="#trades" class="rules-nav__link">Trades & Waivers</a>
+                </div>
+                <div class="rules-nav__item">
+                    <a href="#leagues" class="rules-nav__link">Leagues</a>
+                </div>
+                <div class="rules-nav__item">
+                    <a href="#faqs" class="rules-nav__link">FAQs</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rules Content -->
+    <section class="rules-content">
+        <div class="container">
+            <div class="rules-content__inner">
+                <!-- Basics Section -->
+                <div id="basics" class="rules-section">
+                    <div class="section-header section-header--left">
+                        <h2 class="section-title">The <span class="highlight">Basics</span></h2>
+                        <p class="section-subtitle">Understanding the fundamentals of fantasy football</p>
+                    </div>
+                    
+                    <div class="rules-text">
+                        <p>Fantasy football is a game where you act as the owner and manager of your own virtual football team. Your team competes against other managers' teams based on the statistical performance of the players in real-world matches.</p>
+                        
+                        <h3>How to Play</h3>
+                        <p>To get started with PlayGroundStrategy, follow these simple steps:</p>
+                        <ol>
+                            <li><strong>Create an Account:</strong> Sign up for a free account on PlayGroundStrategy.</li>
+                            <li><strong>Join or Create a League:</strong> Join an existing public league or create your own private league and invite friends.</li>
+                            <li><strong>Draft Your Team:</strong> Select real-world players to form your fantasy team during the draft.</li>
+                            <li><strong>Set Your Lineup:</strong> Before each matchday, set your active lineup from your roster.</li>
+                            <li><strong>Score Points:</strong> Your players earn points based on their real-world performance.</li>
+                            <li><strong>Manage Your Team:</strong> Throughout the season, make trades, pick up free agents, and adjust your lineup to maximize points.</li>
+                            <li><strong>Win Your League:</strong> Compete head-to-head with other managers and aim to win your league championship.</li>
+                        </ol>
+                        
+                        <div class="info-box">
+                            <div class="info-box__icon">
+                                <img src="images/icons/lightbulb.svg" alt="Pro Tip" class="icon">
+                            </div>
+                            <div class="info-box__content">
+                                <h4 class="info-box__title">Pro Tip</h4>
+                                <p class="info-box__text">New to fantasy football? Check out our <a href="contact.html" class="link">Beginner's Guide</a> for detailed explanations and strategy tips.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Scoring Section -->
+                <div id="scoring" class="rules-section">
+                    <div class="section-header section-header--left">
+                        <h2 class="section-title">Scoring <span class="highlight">System</span></h2>
+                        <p class="section-subtitle">How points are calculated for your team</p>
+                    </div>
+                    
+                    <div class="rules-text">
+                        <p>PlayGroundStrategy uses a comprehensive scoring system that rewards players for various actions on the field. Below is the standard scoring system, though league commissioners can adjust these in custom leagues.</p>
+                        
+                        <h3>Offensive Player Scoring</h3>
+                        <div class="scoring-table">
+                            <div class="scoring-table__row scoring-table__header">
+                                <div class="scoring-table__cell">Action</div>
+                                <div class="scoring-table__cell">Points</div>
+                            </div>
+                            <div class="scoring-table__row">
+                                <div class="scoring-table__cell">Passing Touchdown</div>
+                                <div class="scoring-table__cell">4 pts</div>
+                            </div>
+                            <div class="scoring-table__row">
+                                <div class="scoring-table__cell">Passing Yards</div>
+                                <div class="scoring-table__cell">1 pt per 25 yards</div>
+                            </div>
+                            <div class="scoring-table__row">
+                                <div class="scoring-table__cell">Interception Thrown</div>
+                                <div class="scoring-table__cell">-2 pts</div>
+                            </div>
+                            <div class="scoring-table__row">
+                                <div class="scoring-table__cell">Rushing Touchdown</div>
+                                <div class="scoring-table__cell">6 pts</div>
+                            </div>
+                            <div class="scoring-table__row">
+                                <div class="scoring-table__cell">Rushing Yards</div>
+                                <div class="scoring-table__cell">1 pt per 10 yards</div>
+                            </div>
+                            <div class="scoring-table__row">
+                                <div class="scoring-table__cell">Receiving Touchdown</div>
+                                <div class="scoring-table__cell">6 pts</div>
+                            </div>
+                            <div class="scoring-table__row">
+                                <div class="scoring-table__cell">Receiving Yards</div>
+                                <div class="scoring-table__cell">1 pt per 10 yards</div>
+                            </div>
+                            <div class="scoring-table__row">
+                                <div class="scoring-table__cell">Reception (PPR Leagues)</div>
+                                <div class="scoring-table__cell">1 pt</div>
+                            </div>
+                            <div class="scoring-table__row">
+                                <div class="scoring-table__cell">Fumble Lost</div>
+                                <div class="scoring-table__cell">-2 pts</div>
+                            </div>
+                            <div class="scoring-table__row">
+                                <div class="scoring-table__cell">2-Point Conversion</div>
+                                <div class="scoring-table__cell">2 pts</div>
+                            </div>
+                        </div>
+                        
+                        <h3>Defensive Player Scoring</h3>
+                        <div class="scoring-table">
+                            <div class="scoring-table__row scoring-table__header">
+                                <div class="scoring-table__cell">Action</div>
+                                <div class="scoring-table__cell">Points</div>
+                            </div>
+                            <div class="scoring-table__row">
+                                <div class="scoring-table__cell">Sack</div>
+                                <div class="scoring-table__cell">1 pt</div>
+                            </div>
+                            <div class="scoring-table__row">
+                                <div class="scoring-table__cell">Interception</div>
+                                <div class="scoring-table__cell">2 pts</div>
+                            </div>
+                            <div class="scoring-table__row">
+                                <div class="scoring-table__cell">Fumble Recovery</div>
+                                <div class="scoring-table__cell">2 pts</div>
+                            </div>
+                            <div class="scoring-table__row">
+                                <div class="scoring-table__cell">Defensive Touchdown</div>
+                                <div class="scoring-table__cell">6 pts</div>
+                            </div>
+                            <div class="scoring-table__row">
+                                <div class="scoring-table__cell">Safety</div>
+                                <div class="scoring-table__cell">2 pts</div>
+                            </div>
+                            <div class="scoring-table__row">
+                                <div class="scoring-table__cell">Blocked Kick</div>
+                                <div class="scoring-table__cell">2 pts</div>
+                            </div>
+                        </div>
+                        
+                        <div class="info-box info-box--warning">
+                            <div class="info-box__icon">
+                                <img src="images/icons/exclamation-circle.svg" alt="Warning" class="icon">
+                            </div>
+                            <div class="info-box__content">
+                                <h4 class="info-box__title">Important Note</h4>
+                                <p class="info-box__text">Scoring settings may vary between different league types. Always check your specific league's scoring rules before drafting your team.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Draft Rules Section -->
+                <div id="draft" class="rules-section">
+                    <div class="section-header section-header--left">
+                        <h2 class="section-title">Draft <span class="highlight">Rules</span></h2>
+                        <p class="section-subtitle">How the player selection process works</p>
+                    </div>
+                    
+                    <div class="rules-text">
+                        <p>The draft is one of the most exciting parts of fantasy football. It's where you select the players who will make up your team for the season. PlayGroundStrategy offers several draft formats:</p>
+                        
+                        <h3>Draft Formats</h3>
+                        <div class="features-grid features-grid--small">
+                            <div class="feature-card feature-card--small">
+                                <div class="feature-card__icon">
+                                    <img src="images/icons/random.svg" alt="Snake Draft" class="icon">
+                                </div>
+                                <h3 class="feature-card__title">Snake Draft</h3>
+                                <p class="feature-card__text">The draft order reverses each round. If you pick first in round 1, you'll pick last in round 2, and so on.</p>
+                            </div>
+                            
+                            <div class="feature-card feature-card--small">
+                                <div class="feature-card__icon">
+                                    <img src="images/icons/gavel.svg" alt="Auction Draft" class="icon">
+                                </div>
+                                <h3 class="feature-card__title">Auction Draft</h3>
+                                <p class="feature-card__text">Each manager has a budget to bid on players. The highest bidder wins each player until all rosters are filled.</p>
+                            </div>
+                            
+                            <div class="feature-card feature-card--small">
+                                <div class="feature-card__icon">
+                                    <img src="images/icons/clock.svg" alt="Live Draft" class="icon">
+                                </div>
+                                <h3 class="feature-card__title">Live Draft</h3>
+                                <p class="feature-card__text">All managers draft simultaneously in real-time, with a timer for each selection.</p>
+                            </div>
+                            
+                            <div class="feature-card feature-card--small">
+                                <div class="feature-card__icon">
+                                    <img src="images/icons/calendar.svg" alt="Auto Draft" class="icon">
+                                </div>
+                                <h3 class="feature-card__title">Auto Draft</h3>
+                                <p class="feature-card__text">The system automatically selects players for you based on pre-rankings or your draft list.</p>
+                            </div>
+                        </div>
+                        
+                        <h3>Draft Preparation</h3>
+                        <p>To prepare for your draft:</p>
+                        <ul>
+                            <li>Research players and create a draft list with your preferred rankings.</li>
+                            <li>Set up tiers for each position to help make decisions during the draft.</li>
+                            <li>Consider positional scarcity - some positions have fewer elite players available.</li>
+                            <li>Don't forget about bye weeks - avoid having too many players on bye in the same week.</li>
+                            <li>Use the PlayGroundStrategy mock draft tool to practice different strategies.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Roster Management Section -->
+                <div id="roster" class="rules-section">
+                    <div class="section-header section-header--left">
+                        <h2 class="section-title">Roster <span class="highlight">Management</span></h2>
+                        <p class="section-subtitle">How to manage your team throughout the season</p>
+                    </div>
+                    
+                    <div class="rules-text">
+                        <p>Effective roster management is crucial for fantasy football success. Here's what you need to know:</p>
+                        
+                        <h3>Standard Roster Composition</h3>
+                        <p>The standard fantasy football team consists of:</p>
+                        <ul>
+                            <li>1 Quarterback (QB)</li>
+                            <li>2 Running Backs (RB)</li>
+                            <li>2 Wide Receivers (WR)</li>
+                            <li>1 Tight End (TE)</li>
+                            <li>1 Flex (RB/WR/TE)</li>
+                            <li>1 Team Defense/Special Teams (D/ST)</li>
+                            <li>1 Kicker (K)</li>
+                            <li>6 Bench spots</li>
+                            <li>1 Injured Reserve (IR) spot</li>
+                        </ul>
+                        
+                        <p>League commissioners can customize this format for their leagues.</p>
+                        
+                        <h3>Setting Your Lineup</h3>
+                        <p>Before each matchday, you must set your active lineup by selecting which players will earn points for your team. Players on your bench do not earn points for your team that week.</p>
+                        
+                        <div class="info-box">
+                            <div class="info-box__icon">
+                                <img src="images/icons/calendar-check.svg" alt="Calendar" class="icon">
+                            </div>
+                            <div class="info-box__content">
+                                <h4 class="info-box__title">Lineup Lock Times</h4>
+                                <p class="info-box__text">Lineups lock at the start time of each player's real-world match. Make sure to adjust your lineup before kickoff!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Trades & Waivers Section -->
+                <div id="trades" class="rules-section">
+                    <div class="section-header section-header--left">
+                        <h2 class="section-title">Trades & <span class="highlight">Waivers</span></h2>
+                        <p class="section-subtitle">How to acquire new players and make trades</p>
+                    </div>
+                    
+                    <div class="rules-text">
+                        <p>Throughout the season, you can improve your team by making trades with other managers or picking up free agents through the waiver system.</p>
+                        
+                        <h3>Trading System</h3>
+                        <p>The trading system allows managers to exchange players with each other. Here's how it works:</p>
+                        <ul>
+                            <li><strong>Proposing Trades:</strong> You can propose trades to any other manager in your league.</li>
+                            <li><strong>Review Period:</strong> All trades are subject to a 24-hour review period.</li>
+                            <li><strong>Trade Vetoes:</strong> Leagues can be set up with commissioner approval or league vote veto systems.</li>
+                            <li><strong>Trade Deadlines:</strong> Trades are typically locked a few weeks before playoffs begin.</li>
+                        </ul>
+                        
+                        <h3>Waiver Wire System</h3>
+                        <p>The waiver wire is how you acquire free agents (players not on any team in your league):</p>
+                        <ul>
+                            <li><strong>Waiver Priority:</strong> Each manager is assigned a waiver priority ranking, with #1 being the highest priority.</li>
+                            <li><strong>Waiver Period:</strong> When a player is dropped, they typically go on waivers for 24-48 hours.</li>
+                            <li><strong>FAAB System:</strong> Some leagues use a Free Agent Acquisition Budget (FAAB) where managers bid on free agents.</li>
+                            <li><strong>Waiver Claims:</strong> Submit your claims before the waiver deadline, and they'll process according to priority or highest bid.</li>
+                        </ul>
+                        
+                        <div class="info-box">
+                            <div class="info-box__icon">
+                                <img src="images/icons/lightbulb.svg" alt="Pro Tip" class="icon">
+                            </div>
+                            <div class="info-box__content">
+                                <h4 class="info-box__title">Pro Tip</h4>
+                                <p class="info-box__text">Pay attention to your waiver priority. In some leagues, using a high waiver claim moves you to the bottom of the priority list, so use it wisely!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Leagues Section -->
+                <div id="leagues" class="rules-section">
+                    <div class="section-header section-header--left">
+                        <h2 class="section-title">League <span class="highlight">Types</span></h2>
+                        <p class="section-subtitle">Different formats of fantasy football leagues</p>
+                    </div>
+                    
+                    <div class="rules-text">
+                        <p>PlayGroundStrategy offers several types of fantasy football leagues to suit different playing styles and preferences:</p>
+                        
+                        <h3>League Formats</h3>
+                        <div class="features-grid features-grid--small">
+                            <div class="feature-card feature-card--small">
+                                <div class="feature-card__icon">
+                                    <img src="images/icons/users.svg" alt="Standard Leagues" class="icon">
+                                </div>
+                                <h3 class="feature-card__title">Standard Leagues</h3>
+                                <p class="feature-card__text">The traditional head-to-head format where you face off against a different opponent each week.</p>
+                            </div>
+                            
+                            <div class="feature-card feature-card--small">
+                                <div class="feature-card__icon">
+                                    <img src="images/icons/chart.svg" alt="Points Leagues" class="icon">
+                                </div>
+                                <h3 class="feature-card__title">Points Leagues</h3>
+                                <p class="feature-card__text">Focus purely on total points scored throughout the season rather than weekly matchups.</p>
+                            </div>
+                            
+                            <div class="feature-card feature-card--small">
+                                <div class="feature-card__icon">
+                                    <img src="images/icons/trophy.svg" alt="Dynasty Leagues" class="icon">
+                                </div>
+                                <h3 class="feature-card__title">Dynasty Leagues</h3>
+                                <p class="feature-card__text">Multi-year leagues where you keep most or all of your players from season to season.</p>
+                            </div>
+                            
+                            <div class="feature-card feature-card--small">
+                                <div class="feature-card__icon">
+                                    <img src="images/icons/cog.svg" alt="Custom Leagues" class="icon">
+                                </div>
+                                <h3 class="feature-card__title">Custom Leagues</h3>
+                                <p class="feature-card__text">Create your own league with custom scoring, roster settings, and rules.</p>
+                            </div>
+                        </div>
+                        
+                        <h3>League Settings</h3>
+                        <p>When creating or joining a league, consider these important settings:</p>
+                        <ul>
+                            <li><strong>Scoring Type:</strong> Standard, PPR (point per reception), or Half-PPR.</li>
+                            <li><strong>League Size:</strong> Typically 8-14 teams, with 10-12 being most common.</li>
+                            <li><strong>Playoffs:</strong> Usually weeks 14-16 or 15-17 of the NFL season, with 4, 6, or 8 teams qualifying.</li>
+                            <li><strong>Keeper Rules:</strong> If applicable, how many players can be kept between seasons and at what cost.</li>
+                            <li><strong>Public vs Private:</strong> Public leagues are open to anyone, while private leagues require an invitation.</li>
+                        </ul>
+                        
+                        <div class="info-box info-box--warning">
+                            <div class="info-box__icon">
+                                <img src="images/icons/exclamation-circle.svg" alt="Warning" class="icon">
+                            </div>
+                            <div class="info-box__content">
+                                <h4 class="info-box__title">Important Note</h4>
+                                <p class="info-box__text">League settings should be established before the draft and typically cannot be changed once the season has begun.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- FAQs Section -->
+                <div id="faqs" class="rules-section">
+                    <div class="section-header section-header--left">
+                        <h2 class="section-title">Frequently Asked <span class="highlight">Questions</span></h2>
+                        <p class="section-subtitle">Common questions about fantasy football rules</p>
+                    </div>
+                    
+                    <div class="rules-text">
+                        <div class="faq__grid">
+                            <div class="faq__item">
+                                <div class="faq__question">
+                                    <h3>What happens if a player gets injured during a game?</h3>
+                                    <span class="faq__icon"><img src="images/icons/plus.svg" alt="Plus" class="icon"></span>
+                                </div>
+                                <div class="faq__answer">
+                                    <p>If a player gets injured during a game, you will receive points for any statistics they accumulated before the injury. You cannot substitute a player once their game has begun.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="faq__item">
+                                <div class="faq__question">
+                                    <h3>Can I change my lineup after games have started?</h3>
+                                    <span class="faq__icon"><img src="images/icons/plus.svg" alt="Plus" class="icon"></span>
+                                </div>
+                                <div class="faq__answer">
+                                    <p>You can only change players in your lineup whose games have not yet started. Once a player's game begins, they are locked in their current position (active or bench) for that week.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="faq__item">
+                                <div class="faq__question">
+                                    <h3>What happens in case of a tie during playoffs?</h3>
+                                    <span class="faq__icon"><img src="images/icons/plus.svg" alt="Plus" class="icon"></span>
+                                </div>
+                                <div class="faq__answer">
+                                    <p>In case of a tie during playoffs, the default tiebreaker is the higher seed advances. League commissioners can also set custom tiebreakers such as bench points, quarterback points, or regular season head-to-head record.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="faq__item">
+                                <div class="faq__question">
+                                    <h3>Can I drop a player who has already played this week?</h3>
+                                    <span class="faq__icon"><img src="images/icons/plus.svg" alt="Plus" class="icon"></span>
+                                </div>
+                                <div class="faq__answer">
+                                    <p>Yes, you can drop a player who has already played this week, but they will go on waivers and you won't be able to pick them up again until the waiver period has cleared.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="faq__item">
+                                <div class="faq__question">
+                                    <h3>What is the difference between PPR and Standard scoring?</h3>
+                                    <span class="faq__icon"><img src="images/icons/plus.svg" alt="Plus" class="icon"></span>
+                                </div>
+                                <div class="faq__answer">
+                                    <p>In PPR (Points Per Reception) leagues, players receive 1 point for each reception they make. In Standard scoring, no points are awarded for receptions. This increases the value of players who catch many passes, such as receiving running backs and slot receivers.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="faq__item">
+                                <div class="faq__question">
+                                    <h3>How are playoff teams determined?</h3>
+                                    <span class="faq__icon"><img src="images/icons/plus.svg" alt="Plus" class="icon"></span>
+                                </div>
+                                <div class="faq__answer">
+                                    <p>Playoff teams are typically determined by win-loss record, with tiebreakers being total points scored, head-to-head record, or division record (if applicable). The number of playoff teams and seeding structure can be customized by the league commissioner.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top">
+        <img src="images/icons/arrow-up.svg" alt="Back to top" class="icon">
+    </button>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta__inner">
+                <div class="cta__content">
+                    <h2 class="cta__title">Ready to Put Your Knowledge to the Test?</h2>
+                    <p class="cta__text">Now that you understand the rules, it's time to create your team and compete!</p>
+                    <div class="cta__buttons">
+                        <a href="contact.html" class="btn btn--large btn--light">Start Playing</a>
+                        <a href="contact.html" class="btn btn--large btn--outline-light">Get Support</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cta__background">
+            <div class="cta__shape cta__shape--1"></div>
+            <div class="cta__shape cta__shape--2"></div>
+        </div>
+    </section>
+	</main>
+    <!-- Footer -->
+		<footer class="footer">
+			<div class="footer__container container">
+					<div class="footer__column">
+							<a href="index.html" class="logo logo--footer">
+									<span class="logo__text__white">PlayGround<span class="logo__highlight">Strategy</span></span>
+							</a>
+							<p class="footer__description">Your ultimate destination for fantasy football strategy, tools, and community. Dominate your leagues with our expert insights.</p>
+							<div class="social-icons">
+									<a href="contact.html" class="social-icon">
+											<img src="images/icons/facebook.svg" alt="Facebook" class="icon">
+									</a>
+									<a href="contact.html" class="social-icon">
+											<img src="images/icons/twitter.svg" alt="Twitter" class="icon">
+									</a>
+									<a href="contact.html" class="social-icon">
+											<img src="images/icons/instagram.svg" alt="Instagram" class="icon">
+									</a>
+									<a href="contact.html" class="social-icon">
+											<img src="images/icons/youtube.svg" alt="YouTube" class="icon">
+									</a>
+									<a href="contact.html" class="social-icon">
+											<img src="images/icons/discord.svg" alt="Discord" class="icon">
+									</a>
+							</div>
+					</div>
+					
+					<div class="footer__column">
+							<h3 class="footer__title">About Us</h3>
+							<p class="footer__description">PlayGroundStrategy helps fantasy football managers make better decisions with advanced analytics and expert insights.</p>
+					</div>
+					
+					<div class="footer__column">
+							<h3 class="footer__title">Contact Us</h3>
+							<ul class="footer__links">
+									<li>
+											<a href="tel:+911922144312">+91 19221-44312</a>
+									</li>
+									<li>
+											<a href="mailto:contact@playgroundstrategy.com">contact@playgroundstrategy.com</a>
+									</li>
+									<li><a href="https://maps.app.goo.gl/kwCK5Bu4vTT3rkNy8" target="_blank">Anant Apartments, Sector 4, Dwarka, Delhi, 110078, India</a></li>
+							</ul>
+					</div>
+					
+					<div class="footer__column">
+							<h3 class="footer__title">Quick Links</h3>
+							<ul class="footer__links">
+									<li><a href="index.html">Home</a></li>
+									<li><a href="about.html">About</a></li>
+									<li><a href="rules.html">Rules</a></li>
+									<li><a href="contact.html">Contact</a></li>
+							</ul>
+					</div>
+					
+					<div class="footer__column">
+							<h3 class="footer__title">Legal</h3>
+							<ul class="footer__links">
+									<li><a href="terms-conditions.html">Terms & Conditions</a></li>
+									<li><a href="privacy-policy.html">Privacy Policy</a></li>
+									<li><a href="disclaimer.html">Disclaimer</a></li>
+									<li><a href="cookies.html">Cookie Policy</a></li>
+							</ul>
+					</div>
+					
+					<div class="footer__column">
+							<h3 class="footer__title">Newsletter</h3>
+							<p class="footer__text">Subscribe to our newsletter for the latest updates, tips, and promotions.</p>
+							<form class="footer__form">
+									<input type="email" class="footer__input" placeholder="Your email address" required>
+									<button type="submit" class="footer__button">Subscribe</button>
+									<div class="form-group form-group--checkbox" style="margin-top: 10px;">
+											<input type="checkbox" id="privacy-footer" name="privacy-footer" class="form-checkbox" required>
+											<label for="privacy-footer" class="form-checkbox-label">I agree to the <a href="privacy-policy.html">Privacy Policy</a></label>
+									</div>
+							</form>
+					</div>
+			</div>
+			
+			<div class="footer__bottom">
+					<p class="footer__copyright">&copy; 2025 PlayGroundStrategy. All rights reserved.</p>
+					<div class="footer__bottom-links">
+							<a href="terms-conditions.html">Terms</a>
+							<a href="privacy-policy.html">Privacy</a>
+							<a href="cookies.html">Cookies</a>
+					</div>
+			</div>
+	</footer>
+
+		<!-- Back to Top Button -->
+	<button class="back-to-top">
+			<img src="images/icons/arrow-up.svg" alt="Back to top" class="icon">
+	</button>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html> 

@@ -958,6 +958,7 @@ a:hover {
     
     .hero {
         padding: 4rem 0;
+				padding-top: 8rem;
     }
     
     .hero__title {
@@ -1847,7 +1848,7 @@ a:hover {
     padding: 1rem 0;
     position: sticky;
     top: 0;
-    z-index: 100;
+    z-index: 80;
 }
 
 .rules-nav__inner {

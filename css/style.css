@@ -750,7 +750,7 @@ a:hover {
 }
 
 /* CTA Section */
-.cta {
+.cta, .cta-about, .cta-contact, .cta-cookies, .cta-disclaimer, .cta-rules, .cta-terms {
     position: relative;
     padding: 5rem 0;
     overflow: hidden;

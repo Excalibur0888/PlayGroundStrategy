@@ -789,6 +789,10 @@ a:hover {
     gap: 1rem;
 }
 
+.top-10 {
+	margin-top: 10px
+}
+
 .cta__background {
     position: absolute;
     top: 0;
@@ -1846,7 +1850,7 @@ a:hover {
     background-color: var(--color-white);
     box-shadow: var(--shadow-sm);
     padding: 1rem 0;
-    position: sticky;
+    position: relative;
     top: 0;
     z-index: 80;
 }
@@ -3234,6 +3238,10 @@ a:hover {
         font-size: 1rem;
         left: -3rem;
     }
+
+		.team-member__image {
+			height: auto;
+		}
     
     .achievements__partner {
         flex: 0 0 calc(50% - 1rem);
@@ -3290,7 +3298,6 @@ a:hover {
 }
 
 .form-checkbox {
-    margin-right: 10px;
     appearance: none;
     -webkit-appearance: none;
     width: 18px;
@@ -3300,7 +3307,6 @@ a:hover {
     outline: none;
     cursor: pointer;
     position: relative;
-    margin-top: 2px;
 }
 
 .form-checkbox:checked {
@@ -3311,7 +3317,6 @@ a:hover {
     content: '';
     position: absolute;
     left: 5px;
-    top: 2px;
     width: 5px;
     height: 10px;
     border: solid white;
@@ -3337,3 +3342,21 @@ a:hover {
     color: #fff;
     font-size: 13px;
 } 
+
+.footer-badges {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	margin: 1.5rem 0;
+}
+
+.footer-badges img {
+	height: 40px;
+	width: auto;
+	opacity: 0.8;
+	transition: opacity 0.3s ease;
+}
+
+.footer-badges img:hover {
+	opacity: 1;
+}
